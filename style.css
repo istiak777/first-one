@@ -1,0 +1,302 @@
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(156, 95, 126);
+}
+
+.first-text {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.first-textoptional {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-display: underline;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: rgb(238, 229, 218);
+}
+
+.btn {
+
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: crimson;
+    padding: 16px 20px;
+
+}
+
+.btn:hover {
+    color: darkblue;
+    opacity: 2;
+}
+
+/* feature image */
+
+
+.feature-text{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 50px;
+
+}
+
+.paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.flower-baksho{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flower-box-container {
+    display: flex;
+    gap:25px;
+    justify-content: space-around;
+    padding-top: 0px;
+    height: 520px;
+    width: 1140px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flower-baksho-1{
+    margin-top: 20px;
+    border-radius: 5px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(226, 107, 164, 0.15);
+}
+
+.flower-baksho-2{
+    border-radius: 5px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-baksho-3{
+    
+    border-radius: 5px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+
+.flower-1{
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 125px;
+    
+
+}
+
+.flower-2{
+    
+    padding-top: 90px;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+.flower-3{
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 50px;
+    padding-bottom: none;
+    
+}
+
+.flower-2-title{
+    padding-top: 900px;
+    display: flex;
+    text-align: justify;
+    gap: 80px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration-line: underline;
+}
+
+
+.flower-title{
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration-line: underline;
+}
+
+/* feature image */
+
+
+/* hot deal */
+.part-hotdeal {
+    margin-top: 120px;
+    background-color: rgb(235, 146, 146);
+    border-radius: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text-inst {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.image-container img {
+
+    width: 310px;
+    margin: 10px;
+}
+/* hot deal */
+
+
+/* email er form,subscribe */
+.formbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 300px;
+
+    background-image: url(./imag/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    border-image-width: 100%;
+
+
+}
+
+.formbox h1 {
+
+    font-size: 40px;
+}
+
+.formbox p {
+
+    font-size: 15px;
+    text-align: center;
+    width: 700px;
+}
+
+.formbox input {
+
+    width: 420px;
+    height: 38px;
+    border: none;
+}
+
+.formbox button {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(161, 36, 61);
+    padding: 10px 20px;
+    border: none;
+
+}
+.formbox button:hover {
+color: blue;
+}
+
+.mainform {
+    padding: 16px 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.uppertext-form {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+/* email er form,subscribe */
+
+/*---eikhane customer reviw part ssuru-*/
+
+.checked {
+    color: orange;
+}
+
+.heading {
+
+    font-size: 30px;
+    color: rgb(3, 3, 3);
+    padding: 6px;
+    margin: 2px;
+    background-color: rgb(214, 178, 214);
+    text-align: center;
+
+}
+
+.box-contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer-review {
+    background-color: rgb(240, 227, 210);
+}
+
+
+/*---eikhane customer reviw part sesh-*/
+
+.footer-text {
+
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(37, 35, 35);
+}
+
+#flwr {
+    color: rgb(121, 35, 35);
+}
+
+#shop {
+    color: azure;
+}
+
+.bottom-text {
+    color: beige;
+    font-size: 10px;
+}
+
+.last-text {
+    color: dimgray;
+    font-size: xx-small;
+    padding-bottom: 20px;
+}
